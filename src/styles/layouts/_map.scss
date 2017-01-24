@@ -32,14 +32,24 @@
 // 	opacity: .7;
 // }
 
+// .kaart{
+// 	position: absolute;
+// 	right: 20em;
+// 	top: 1em;
+// 	background: url(../images/kaart.svg) no-repeat;
+// 	background-size: 100%;
+// 	width: 40%;
+// 	height: 80%;
+// }
 .kaart{
 	position: absolute;
-	right: 20em;
-	top: 1em;
-	background: url(../images/kaart.svg) no-repeat;
-	background-size: 100%;
-	width: 40%;
-	height: 80%;
+	right: 0;
+	top: 0;
+	background: url(../images/map.svg) no-repeat;
+	// background-size: 100%;
+	background-size: 118%;
+	width: 58%;
+	height: 100%;
 }
 .nl{
 	position: absolute;
@@ -50,10 +60,10 @@
 	width: 3%;
 	height: 7%;
 }
-.kaart:hover,
-.nl:hover{
-	opacity: .7;
-}
+// .kaart:hover,
+// .nl:hover{
+// 	opacity: .7;
+// }
 .gebied-vis1{
 	background: rgba(0,0,0,.5);
 	width: 3em;
