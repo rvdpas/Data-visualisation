@@ -1,0 +1,43 @@
+footer{
+	width: 100%;
+	// margin: 5em 0 0;
+	padding: 3em 0;
+	background: #333;
+	text-align: center;
+	a{
+		color: rgba(255, 255, 255, 0.6);
+		text-decoration: none;
+		@include transition;
+		&:visited{
+			color: rgba(255, 255, 255, 0.6);
+		}
+		&:hover{
+		    color: #F4BEBE;
+		}
+	}
+	.icon:before {
+	    -moz-osx-font-smoothing: grayscale;
+	    -webkit-font-smoothing: antialiased;
+	    font-family: FontAwesome;
+	    font-style: normal;
+	    font-weight: normal;
+	    text-transform: none !important;
+	    font-size: 1.5em;
+	}
+	.fa-envelope-o:before {
+	    content: "\f003";
+	}
+	p{
+		text-align: center;
+		color: rgba(255, 255, 255, 0.6);
+		font-weight: 300;
+		font-size: 1em;
+		margin-top: 1em;
+	}
+}
+
+.contact footer{
+	position: absolute;
+	left: 0;
+    bottom: 0;
+}

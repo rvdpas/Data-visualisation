@@ -1,0 +1,58 @@
+// .uk{
+// 	position: absolute;
+// 	left: 15em;
+// 	bottom: 2em;
+// 	background: url(../images/gb.svg) no-repeat;
+// 	background-size: 100%;
+// 	width: 10em;
+// 	height: 10em;
+// }
+// .scand{
+// 	position: absolute;
+// 	right: 0;
+// 	top: 0;
+// 	background: url(../images/scand.svg) no-repeat;
+// 	background-size: 100%;
+// 	width: 20em;
+//     height: 21em;
+// }
+// .nl{
+// 	position: absolute;
+// 	right: 0;
+// 	bottom: 1em;
+// 	background: url(../images/nl.svg) no-repeat;
+// 	background-size: 100%;
+// 	width: 9em;
+// 	height: 9em;
+// }
+
+// .uk:hover,
+// .scand:hover,
+// .nl:hover{
+// 	opacity: .7;
+// }
+
+.kaart{
+	position: absolute;
+	right: 20em;
+	top: 1em;
+	background: url(../images/kaart.svg) no-repeat;
+	background-size: 100%;
+	width: 40%;
+	height: 80%;
+}
+
+.kaart:hover{
+	opacity: .7;
+}
+
+.gebied-vis1{
+	background: rgba(0,0,0,.5);
+	width: 3em;
+	height: 3em;
+	
+}
+
+
+
+
