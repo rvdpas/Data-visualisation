@@ -1,3 +1,9 @@
+$('li:not(".q")').hide();
+
+$('li.q').click( function(){
+  $('li:not(".q")').slideUp();
+  $(this).nextUntil('.q').slideDown();
+});
 
 // Avoid `console` errors in browsers that lack a console.
 (function() {

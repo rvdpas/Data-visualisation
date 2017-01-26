@@ -1,4 +1,5 @@
 node_modules
+<<<<<<< HEAD
 src/styles/screen.css
 
 src/index.html
@@ -8,3 +9,6 @@ dist/styles/screen.css
 dist/index.html
 
 dist/images/map.svg
+=======
+
+>>>>>>> origin/master

@@ -1,23 +1,36 @@
-header{
+.Sidebar {
 	position: absolute;
 	top: 0;
 	left: 0;
 	background: rgba(40,47,50,1);
-	width: 15em;
+	width: 20%;
 	height: 100%;
 	z-index: 9999;
-	.logo{
-		background: url(../images/logo.png) no-repeat;
-		background-size: 100%;
-		width: 70%;
-		height: 2em;
-		display: block;
-		margin: 2em auto 0;
+
+  a {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+	&__logo {
+		width: 100%;
+    height: 100%;
 	}
-	form{
-		width: 70%;
-		display: block;
-		margin: 2em auto 0;
-		color: #fff;
-	}
+
+  ul {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+    li {
+      color: #fff;
+      font-weight: normal;
+    }
+
+    li.q {
+      font-weight: bold;
+      color: #fff;
+    }
+  }
 }
