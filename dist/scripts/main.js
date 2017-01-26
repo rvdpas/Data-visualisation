@@ -33,3 +33,71 @@ function valueChanged(){
     else
         $(".gebied-vis1").hide();
 }
+
+// $(document).ready( function() {
+// $('.kaart').hover(
+//     function() {
+//         $(this).animate({ 'zoom': 1.2 }, 400);
+//     },
+//     function() {
+//         $(this).animate({ 'zoom': 1 }, 400);
+//     });
+// });
+
+$( ".kaart" ).click(function() {
+    function() {
+        $(this).animate({ 'zoom': 1.2 }, 400);
+    },
+    function() {
+        $(this).animate({ 'zoom': 1 }, 400);
+    };
+});
+
+// $(document).ready( function() {
+// $('.kaart').hover(
+//     function() {
+//         $(this).animate({ 'zoom': 1.2 }, 400);
+//     },
+//     function() {
+//         $(this).animate({ 'zoom': 1 }, 400);
+//     });
+// });
+
+// var enlarged = false;
+
+// $('.kaart').click(function () {
+//     $(this).stop(true, false).animate({
+//         width: enlarged ? 1000 : 2000,
+//         height: enlarged ? 1000 : 2000,
+//         left: 0,
+//         top: 0
+//     }, 600);
+
+//     enlarged = !enlarged;
+// });
+
+// var enlarged = false;
+
+// $('.kaart').click(function () {
+//     $(this).stop(true, false).animate({
+//         width: enlarged ? 800 : 1600,
+//         height: enlarged ? 800 : 1600,
+//         right: 0,
+//         top: 10
+//     }, 800);
+
+//     enlarged = !enlarged;
+// });
+
+// var enlarged = false;
+
+// $('.kaart').click(function () {
+//     $(this).stop(true, false).animate({
+//         width: enlarged ? 1000 : 2000,
+//         height: enlarged ? 1000 : 2000,
+//         top: 0,
+//         left: 10
+//     }, 200);
+
+//     enlarged = !enlarged;
+// });
